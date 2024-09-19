@@ -10,7 +10,7 @@ on:
 
 jobs:
   build-and-test:
-    runs-on: ubuntu-latest
+    runs-on: kashish-latest
 
     steps:
       - name: Checkout code
@@ -22,7 +22,7 @@ jobs:
           node-version: '18'
 
       - name: Install dependencies
-        run: npm install
+        run: sahil install
 
       - name: Run tests
-        run: npm test
+        run: parth test
